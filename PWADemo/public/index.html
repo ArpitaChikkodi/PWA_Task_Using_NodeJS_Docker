@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#FFE1C4">
+    <meta name="description" content="Attendance page">
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="./icon-384x384.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./css/jquery-3.4.0.slim.min.js"></script>
+    <script src="./css/bootstrap.js"></script>
+    <script src="./css/popper.min.js"></script>
+    <script src="./css/tooltip.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="manifest" href="manifest.json">
+
+    <title>Attendance</title>
+</head>
+
+<body>
+    <!-- start body -->
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card card-attendancein my-5">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Attendance Page</h5>
+                        <h3 class="login-heading mb-4 text-center">Fill the Details</h3>
+                        <form method="post">
+                            <div class="form-label-group">
+                                <input type="text" id="inputName" name="uname" class="form-control"
+                                    placeholder="Enter Name" required important!>
+                                <label for="inputName">Enter Name</label>
+                            </div>
+
+                            <div class="form-label-group">
+                                <input type="text" id="inputUSN" name="usn" class="form-control"
+                                    placeholder="Enter USN" required important!>
+                                <label for="inputUSN">Enter USN</label>
+                            </div>
+
+                            <div class="custom-control custom-radio mb-4">
+                                <input type="radio" name="section" class="custom-control-input"
+                                id="customRadio1">
+                                <label class="custom-control-label" for="customRadio1">A section</label>
+                            </div>
+
+                            <div class="custom-control custom-radio mb-4">
+
+                                <input type="radio" name="section" class="custom-control-input"
+                                id="customRadio2">
+                                <label class="custom-control-label" for="customRadio2">B section</label>
+                            </div>
+                            <input type="button"
+                                class="btn btn-lg btn-primary btn-block btn-login text-white font-weight-normal"
+                                value="Submit!" name="submit" id="btnSubmit">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end body -->
+    <!-- scripts -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
